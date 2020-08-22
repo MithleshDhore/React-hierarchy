@@ -1,0 +1,36 @@
+$body-bg:               #ffffff;
+$body-color:            #010217;
+$link-color:            #ffffff;
+$link-hover-color:      #ffffff;
+$smoke-white:           #F5F5F6;
+$gray-one:              #4F5051;
+$gray-two:              #D7D7D8;
+$gray-three:            #AEAEAF;
+$gray-four:             #EBEBEC;
+$gray-five:             #343537;
+$gray-six:              #C6C7CA;
+$theme-success:         #0AC391;
+
+$primary:       #403460 !default;
+$secondary:     #707070 !default;
+$success:       #78A300 !default;
+$info:          #3AB3E2 !default;
+$warning:       #EB9100 !default;
+$danger:        #D30000 !default;
+$light:         #F5F5F6 !default;
+$dark:          #58585B !default;
+
+$primary-color: var(--primary-color, #f7f7f7);
+$secondary-color: var(--secondary-color, #ffffff);
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+        "primary":    $primary,
+        "secondary":  $secondary,
+        "success":    $success,
+        "info":       $info,
+        "warning":    $warning,
+        "danger":     $danger,
+        "light":      $light,
+        "dark":       $dark,
+), $theme-colors);

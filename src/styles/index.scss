@@ -1,0 +1,35 @@
+//Base Styles  common to all the themes
+@import '../../node_modules/antd/dist/antd.css';
+@import 'base/base.scss';
+
+.text-primary {
+    color: $primary-color !important;
+  }
+ 
+.text-secondary {
+    color: $secondary-color !important;
+  }
+
+.card-header{
+    background-color: $primary-color !important
+}
+
+.card-body{
+    background-color: $secondary-color !important
+}
+
+.m-2{
+    margin: 2rem !important;
+}
+
+.m-l-2{
+    margin-left: 2rem !important;
+}
+
+.m-t-1{
+    margin-top: 1rem !important;
+}
+
+.btn-bgr{
+    background-color: #cccccc !important;
+}
